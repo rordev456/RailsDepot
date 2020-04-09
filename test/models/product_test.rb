@@ -52,6 +52,6 @@ test "product is not valid without a unique title" do
                         assert product.invalid?
                         assert_equal [I18n.translate('activerecord.errors.messages.taken')], product.errors[:title]
                       end
-                      
+
 
 end
